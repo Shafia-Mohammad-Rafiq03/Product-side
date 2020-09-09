@@ -1,0 +1,111 @@
+/* .center .item-A {
+    padding: 50px;
+} */
+
+#home-pg .item-A h1 {
+    margin-left: 20%;
+    color: #6D6875;
+    margin-left:0;
+    font-size:40px;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+#home-pg .item-A h2{
+    color: #D65C60;
+    font-weight:550;
+ 
+}
+
+#home-pg hr{
+    width: 20%;
+    margin-top: -3%;
+    margin-left: 0;
+    
+}
+ #home-pg .item-A {
+    align-items: center;
+    display: flex;
+    margin-left: 10%;
+    /* justify-content: center; */
+    
+}
+
+
+#home-pg .container-A {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    background:none;
+    /* padding-right: 20%; */
+    text-align: center;
+    text-align: left;
+    margin-left: 5%;
+   
+
+}
+
+#home-pg .container-A h1,h2,p{
+        padding-top: -80%;
+    }
+
+
+
+
+/* .item-A .container-A>i {
+    padding-right: 10%;
+} */
+
+#home-pg .pickup-btn {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    color: #D65C60;
+    border-color: #D65C60;
+    width: 40%;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+    margin-top:5%;
+    cursor: pointer;
+}
+#home-pg .pickup-btn:hover {
+    background-color: #E5989B;
+    color: #FFFFFF;
+ }
+ 
+@media only screen and (max-width: 600px) {
+    
+        .item-A {
+        
+            margin-left: 0 auto;
+            justify-content: center;
+
+            
+        }
+        .item-A img{
+            display: none;
+        }
+        .container-A .pickup-btn{
+            display:none;
+            
+        }
+        .container-A .pick-btn{
+            border-radius: 5px;
+            background-color: #FFFFFF;
+            color: #D65C60;
+            border-color: #D65C60;
+            width: 40%;
+            padding-top:1.5%;
+            padding-bottom:1.5%;
+            margin-top:5%;
+            cursor: pointer;
+        }
+        .container-A .pick-btn:hover{
+            background-color: #E5989B;
+            color: #FFFFFF;
+        }
+    }
+    @media only screen and (min-width: 600px){
+      .container-A .pick-btn{
+        display: none;
+}
+    }
+  
