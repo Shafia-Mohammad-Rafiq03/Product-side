@@ -65,6 +65,7 @@
     padding-bottom:1.5%;
     margin-top:5%;
     cursor: pointer;
+    outline:none;
 }
 #home-pg .pickup-btn:hover {
     background-color: #E5989B;
@@ -108,4 +109,14 @@
         display: none;
 }
     }
-  
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px){
+        #home-pg .item-A {
+            align-items: center;
+            flex-direction: column;
+            margin-left: 0;
+            /* justify-content: center; */
+            
+        }
+    }
